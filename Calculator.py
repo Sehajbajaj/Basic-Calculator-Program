@@ -16,6 +16,8 @@ def multiply(x , y):
 def divide(x , y):
     return x / y
 
+#menu for choice
+
 print("Please select operation: \n"
       "1. Add\n"
       "2. Subtract\n"
@@ -25,6 +27,8 @@ print("Please select operation: \n"
 menu = int(input("Select operation from 1, 2, 3, 4, :"))
 num1 = float(input("Enter first number: "))
 num2 = float(input("ENter second number: "))
+
+#menu code
 
 if menu == 1:
     print(num1 , " + " , num2 , "=", add(num1 , num2))
